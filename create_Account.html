@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .content{
+            width: 500px;
+            margin: 10% auto;
+            
+            
+        }
+        .outcontent{
+          border: 1px solid #dadce0;
+          padding: 30px;
+        }
+        h1{
+            margin: 0 0 25px 10px;
+        }
+        .field{
+            
+            padding: 10px 10px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            
+        }
+        .field1{
+            width: 91%;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .field .field1:focus{
+            border: 1px solid #4285f4;
+        }
+        .signupfield{
+            margin: 25px 30px;
+            display: flex;
+            justify-content: space-between;
+        }
+        button{
+            padding: 7px;
+            background-color: #1877f2;
+            color: #fff;
+            border: 0;
+            outline: 0;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: #4285f4;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        @media screen  and (max-width: 480px){
+               
+            .field1 .field{
+            width: 100%;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        }
+    </style>
+    </head>
+<body>
+    <div class="content">
+        <div class="outcontent">
+        <div class="incontent">
+        <h1>Create an account</h1>
+        <form>
+            <div class="contentfield">
+                <input type="name" placeholder="Firstname" class="field">
+                <input type="name" placeholder="Lastname" class="field">
+            </div>
+            <div class="contentfield">
+                <input type="email" placeholder="E-mail" class="field1">
+            </div>
+            <div class="passowrdfield">
+                <input type="password" placeholder="Password" class="field">
+                <input type="password" placeholder="Confirm" class="field">
+            </div>
+        </form>
+        <div class="signupfield">
+            <a href="Fg.html">Sign in instead</a>
+            <button type="button">Sign up</button>
+        </div>
+    </div>
+</div>
+    </div>
+</body>
+</html>
